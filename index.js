@@ -6,11 +6,18 @@ const { parseStringPromise } = require('xml2js');
 const { Parser } = require('json2csv');  // For converting JSON to CSV
 
 const sitemapUrls = [
-  'https://www.avathi.com/static_pages/sitemap.xml',
-  'https://www.avathi.com/activities/sitemap.xml',
-  'https://www.avathi.com/experiences/sitemap.xml',
-  'https://www.avathi.com/places/sitemap.xml'
-  // Add other sitemap URLs here
+  "https://www.avathi.com/static_pages/sitemap.xml",
+  "https://www.avathi.com/activities/sitemap.xml",
+  "https://www.avathi.com/experiences/sitemap.xml",
+  "https://www.avathi.com/stories/sitemap.xml",
+  "https://www.avathi.com/places/sitemap.xml",
+  "https://www.avathi.com/guide/sitemap.xml",
+  "https://www.avathi.com/best-time-to-visit/sitemap.xml",
+  "https://www.avathi.com/how-to-get-there/sitemap.xml",
+  "https://www.avathi.com/things-to-do/sitemap.xml",
+  "https://www.avathi.com/places-to-visit/sitemap.xml",
+  "https://www.avathi.com/place/sitemap.xml",
+  "https://www.avathi.com/activity/sitemap.xml"
 ];
 
 const s3BaseUrl = 'https://avathioutdoors.gumlet.io/scrapped-data/';
