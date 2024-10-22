@@ -1,0 +1,21 @@
+{
+  "name": "sitemap-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "json2csv": "^6.0.0-alpha.2",
+    "path": "^0.12.7",
+    "xlsx": "^0.18.5",
+    "xml2js": "^0.6.2"
+  }
+}
